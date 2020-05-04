@@ -1,0 +1,39 @@
+header {
+    background-color: #001325;
+    padding: 1rem;
+}
+
+header .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .nav__logo {
+    width: 50%;
+}
+
+header .nav__logo img {
+    width: 50%;
+    max-width: 100%;
+}
+
+header .nav__menu__desktop ul li {
+    list-style: none;
+    display: inline-block;
+    color: #ffffff;
+    font-size: 1rem;
+    font-family: "DubaiMedium";
+    margin-right: 1.2rem;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+header .nav__menu__desktop ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+header .nav__menu__mobile {
+    display: none;
+}

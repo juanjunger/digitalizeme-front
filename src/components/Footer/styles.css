@@ -1,0 +1,14 @@
+footer {
+    background-color: #001325;
+    padding: 2rem;
+}
+
+footer .copy {
+    text-align: center;
+}
+
+footer .copy p {
+    font-family: "DubaiMedium";
+    font-size: 1rem;
+    color: #ffffff
+}

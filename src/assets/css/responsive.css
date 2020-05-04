@@ -1,0 +1,85 @@
+@media screen and (max-width: 960px) {
+    .chat .content {
+        flex-direction: column;
+    }
+    
+    .chat__card {
+        justify-content: center;
+    }
+
+    .chat__info {
+        margin: 0 auto;
+        width: 50%;
+        text-align: center;
+    }
+    
+    .chat__info::before {
+        display: none;
+    }
+
+    .chat__info ul {
+        margin: 0;
+    }
+    
+    .chat__info ul li {
+        list-style-type: none;
+    }
+
+    .chat__card__socials {
+        flex-direction: row;
+        width: 40%;
+    }
+
+    .chat__card__socials svg {
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header .nav .nav__logo img {
+        width: 80%;
+    }
+
+    header .nav .nav__menu__desktop {
+        display: none;
+    }
+
+    header .nav .nav__menu__mobile {
+        display: block;
+    }
+
+    .chat__card {
+        flex-direction: column;
+        order: 2;
+    }
+
+    .chat__card__form {
+        max-width: 70%;
+        margin-bottom: 1rem;
+    }
+
+    .chat__info {
+        width: 100%;
+        order: 1;
+    }
+
+    .newsletter form input {
+        width: 70%;
+    }
+
+    .newsletter form button {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .chat__card__socials svg {
+        width: 30%;
+        padding: 0.5rem;
+    }
+
+    .chat__card__socials {
+        flex-direction: row;
+        width: 60%;
+    }
+}
