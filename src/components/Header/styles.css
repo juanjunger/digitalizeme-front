@@ -1,6 +1,7 @@
 header {
     background-color: #001325;
     padding: 1rem;
+    position: relative;
 }
 
 header .nav {
@@ -36,10 +37,10 @@ header .nav__menu__desktop ul li a {
 
 header .nav__menu__mobile {
     width: 100%;
-    background-color: #003466;
-    top: 6.5rem;
+    background-color: #001325;
     position: absolute;
     left: 0;
+    top: 95%;
 }
 
 header .nav__menu__mobile__btn {
