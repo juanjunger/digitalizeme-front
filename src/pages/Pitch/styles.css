@@ -1,0 +1,52 @@
+.pitch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+}
+
+.pitch .container {
+    width: 100%;
+}
+
+.pitch .pitch__header h1 {
+    font-family: "DubaiMedium";
+    color: #F88F0E;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.pitch .pitch__video video, .pitch .pitch__video iframe {
+    border: 0;
+    width: 100%;
+    max-width: 640px;
+    height: 360px;
+}
+
+.pitch .pitch__video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.pitch .pitch__info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.pitch .pitch__info p {
+    font-family: "DubaiLight";
+    color: #2d2d2d;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.pitch .pitch__info p span, .pitch .pitch__info p a {
+    font-family: "DubaiMedium";
+    color: #2d2d2d;
+    font-size: 1.2rem;
+    text-align: center;
+}

@@ -1,18 +1,29 @@
 import React from 'react'
 
-import Banner from '../../components/Banner'
+import Banner from '../../components/Banner';
 
-function Pitch(){
-  return(
-    <div>
-      <Banner />
-      <h1>Link alternativo</h1>
+import './styles.css';
 
-      <div><a href="https://storyboarders.com/storyboard/jnx4oj4ebp-testeexport">Veja o Pitch</a></div>
-
-      <video controls="" autoplay="" name="media"><source src="https://digitalizeme.s3-sa-east-1.amazonaws.com/digitalizeme-pitch-investidor.mp4" type="video/mp4"></video>
-    </div>
-  )
+function Pitch() {
+    return (
+        <div>
+            <Banner />
+            <section className="pitch">
+                <div className="container">
+                    <div className="pitch__header">
+                        <h1>Pitch</h1>
+                    </div>
+                    <div className="pitch__video">
+                        <iframe title="pitch" src="https://digitalizeme.s3-sa-east-1.amazonaws.com/digitalizeme-pitch-investidor.mp4" allow="autoplay;" allowFullScreen></iframe>
+                    </div>
+                    
+                    <div className="pitch__info">
+                        <p>Veja o <span>pitch</span> clicando <a href="https://digitalizeme.s3-sa-east-1.amazonaws.com/Pitch+Final+-+Digitalize-me.pdf">aqui!</a></p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    );
 }
 
 export default Pitch
