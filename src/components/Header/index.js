@@ -14,7 +14,7 @@ function Header() {
                     </div>
                     <div className="nav__menu__desktop">
                         <ul>
-                            <li>Home</li>
+                            <li><a href="/">Home</a></li>
                             <li><a href="#chat">Chat</a></li>
                             <li><a href="https://digitalizeme-blog.herokuapp.com/" target="_blank" rel="noopener noreferrer">Blog</a></li>
                         </ul>
