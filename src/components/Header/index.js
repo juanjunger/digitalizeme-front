@@ -4,7 +4,14 @@ import './styles.css';
 import logoImg from '../../assets/images/logo.png';
 import { FaBars } from 'react-icons/fa';
 
+import $ from 'jquery';
+
 function Header() {
+    
+    function handleToggle() {
+        $('.nav__menu__mobile__items ul').slideToggle();
+    };
+
     return (
         <header>
             <div className="container">
@@ -21,7 +28,17 @@ function Header() {
                         </ul>
                     </div>
                     <div className="nav__menu__mobile">
-                        <FaBars size={24} color="#ffffff" />
+                        <div className="nav__menu__mobile__items">
+                            <ul>
+                                <li><a href="/">Home</a></li>
+                                <li><a href="/#chat">Chat</a></li>
+                                <li><a href="https://digitalizeme-blog.herokuapp.com/" target="_blank" rel="noopener noreferrer">Blog</a></li>
+                                <li><a href="/pitch">Pitch</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div className="nav__menu__mobile__btn">
+                        <FaBars size={24} color="#ffffff" className="nav__menu__mobile__button" onClick={handleToggle} />
                     </div>
                 </div>
             </div>

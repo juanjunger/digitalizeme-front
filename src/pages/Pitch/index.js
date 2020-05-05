@@ -18,7 +18,7 @@ function Pitch() {
                     </div>
                     
                     <div className="pitch__info">
-                        <p>Veja o <span>pitch</span> clicando <a href="https://digitalizeme.s3-sa-east-1.amazonaws.com/Pitch+Final+-+Digitalize-me.pdf">aqui!</a></p>
+                        <p>Veja o <span>pitch</span> clicando <a href="https://digitalizeme.s3-sa-east-1.amazonaws.com/Pitch+Final+-+Digitalize-me.pdf" target="_blank" rel="noopener noreferrer">aqui!</a></p>
                     </div>
                 </div>
             </section>
