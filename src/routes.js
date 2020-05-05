@@ -10,6 +10,7 @@ function Routes() {
             <Switch>
                 <Route path="/" exact component={Home} />
                 <Route path="/pitch" exact component={Pitch} />
+                <Route path="/video" exact component={Pitch} />
             </Switch>
         </BrowserRouter>
     )
