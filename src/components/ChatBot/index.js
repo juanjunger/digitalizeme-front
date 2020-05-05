@@ -17,7 +17,7 @@ function ChatBot() {
                         </div>
                         <div className="chat__card__socials">
                             <FaFacebookMessenger size={32} color="#ffffff" id="fb" />
-                            <FaWhatsapp size={32} color="#ffffff" id="wpp" />
+                            <a href="https://wa.me/14153048334&text=user=leomoraes" target="whats"><FaWhatsapp size={32} color="#ffffff" id="wpp" /></a>
                         </div>
                     </div>
                     <div className="chat__info">
