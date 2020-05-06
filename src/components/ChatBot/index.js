@@ -18,7 +18,7 @@ function ChatBot() {
                     <div className="chat__card">
                         <div className="chat__card__form">
                             <span><BsChevronRight size={16} color="#2d2d2d" /></span>
-                            <span>Olá eu sou a Ariela ...</span>
+                            <span><a href="https://admin.chatcompose.com/testbotland/leomoraes-digitalizeme/PT" target="chat">Olá eu sou a Ariela</a> ...</span>
                         </div>
                         <div className="chat__card__socials">
                             <FaFacebookMessenger size={32} color="#ffffff" id="fb" />
