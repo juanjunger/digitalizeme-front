@@ -3,12 +3,14 @@ import React from 'react';
 import './styles.css';
 
 import bannerImg from '../../assets/images/banner.png';
+import bannerHome from '../../assets/images/banner-home.png';
+import bannerPitch from '../../assets/images/banner-pitch.png';
 
-function Banner() {
+function Banner(props) {
     return (
         <section className="banner">
             <div className="banner__img">
-                <img src={bannerImg} alt="Banner"/>
+                <img src={props.page === "" ? bannerImg : props.page === "home" ? bannerHome : props.page === "pitch" ? bannerPitch : ""} alt="Banner"/>
             </div>
         </section>
     );

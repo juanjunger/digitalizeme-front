@@ -7,7 +7,7 @@ import ChatBot from '../../components/ChatBot';
 function Home() {
     return (
         <div>
-            <Banner />
+            <Banner page="" />
             <ChatBot />
             <Newsletter />
         </div>

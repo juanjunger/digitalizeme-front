@@ -7,7 +7,7 @@ import './styles.css';
 function Pitch() {
     return (
         <div>
-            <Banner />
+            <Banner page="pitch" />
             <section className="pitch">
                 <div className="container">
                     <div className="pitch__header">
