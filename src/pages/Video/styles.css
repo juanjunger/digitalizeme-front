@@ -16,14 +16,14 @@
     text-align: center;
 }
 
-.video .video__content video, .video .video__video iframe {
+.video .video__content video, .video .video__content iframe {
     border: 0;
     width: 100%;
     max-width: 640px;
     height: 360px;
 }
 
-.video .video__video {
+.video .video__content {
     display: flex;
     justify-content: center;
     align-items: center;

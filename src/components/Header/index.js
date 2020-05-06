@@ -14,12 +14,12 @@ function Header() {
 
     return (
         <header>
-        <link href="https://admin.chatcompose.com/static/PT/global/export/css/main.1b3f9fb9.css" rel="stylesheet" />>   
-        <script async type="text/javascript" src="https://admin.chatcompose.com/static/PT/global/export/js/main.c9ea3138.js" user="leomoraes-digitalizeme"></script>
             <div className="container">
                 <div className="nav">
                     <div className="nav__logo">
-                        <img src={logoImg} alt="Logo"/>
+                        <a href="/">
+                            <img src={logoImg} alt="Logo"/>
+                        </a>
                     </div>
                     <div className="nav__menu__desktop">
                         <ul>
