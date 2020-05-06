@@ -3,7 +3,7 @@ import React from 'react';
 import './styles.css';
 
 import bannerImg from '../../assets/images/banner.png';
-import bannerHome from '../../assets/images/banner-home.png';
+import bannerHome from '../../assets/images/banner-home2.png';
 import bannerPitch from '../../assets/images/banner-pitch.png';
 
 function Banner(props) {
