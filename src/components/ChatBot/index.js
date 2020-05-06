@@ -6,6 +6,11 @@ import { FaFacebookMessenger, FaWhatsapp } from 'react-icons/fa';
 import { BsChevronRight } from 'react-icons/bs';
 
 function ChatBot() {
+
+    function wppLink() {
+        return window.location.href = "whatsapp://send?phone=+14153048334&text=user=leomoraes-digitalizeme";
+    }
+
     return (
         <section className="chat" id="chat">
             <div className="container">
@@ -17,7 +22,7 @@ function ChatBot() {
                         </div>
                         <div className="chat__card__socials">
                             <FaFacebookMessenger size={32} color="#ffffff" id="fb" />
-                            <a href="whatsapp://send?phone=+14153048334&text=user=leomoraes-digitalizeme" target="whats"><FaWhatsapp size={32} color="#ffffff" id="wpp" /></a>
+                            <FaWhatsapp size={32} color="#ffffff" id="wpp" onClick={wppLink} />
                         </div>
                     </div>
                     <div className="chat__info">

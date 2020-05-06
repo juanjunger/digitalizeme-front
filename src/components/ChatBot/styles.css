@@ -52,6 +52,7 @@
     padding: 1rem;
     height: 100%;
     border-radius: 50%;
+    cursor: pointer;
 }
 
 .chat__card__socials svg#wpp {
