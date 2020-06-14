@@ -19,29 +19,20 @@
 
 .chat__card__form {
     display: flex;
-    padding: 0rem 2rem;
+    padding: 0rem;
     align-items: center;
     justify-content: center;
     width: 100%;
     max-width: 40%;
-    height: 250px;
-    background-color: #ffffff;
-    border-top: 20px solid #FF8E00;
-    border-radius: 10px;
-    box-shadow: 0px 0px 30px 0px;
+    height: 100%;
 }
 
-.chat__card__form span {
-    margin: 0.25rem;
-    text-align: justify;
-    font-size: 0.8rem;
-    font-family: "Courier Prime";
+.chat__card__form img {
+    width: 100%;
 }
 
 .chat__card__form a {
     text-decoration: none;
-    color: #2d2d2d;
-    font-weight: bold;
 }
 
 .chat__card__socials {
@@ -49,7 +40,7 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    width: 35%;
+    width: 40%;
 }
 
 .chat__card__socials svg {
@@ -62,26 +53,26 @@
 }
 
 .chat__card__socials svg#wpp {
-    background-color: #00B050;
+    background-color: #CF711F;
 }
 
 .chat__card__socials svg#fb {
-    background-color: #00B0F0;
+    background-color: #CF711F;
 }
 
 .chat__info {
     padding: 2rem;
     position: relative;
-    width: 50%;
+    width: 80%;
 }
 
 .chat__info::before {
     content: "";
     position: absolute;
-    top: 30%;
+    top: 35%;
     left: 0;
-    height: 55%;
-    border: 2px solid #ffffff;
+    height: 50%;
+    border: 1px solid #ffffff;
 }
 
 .chat__info h1 {

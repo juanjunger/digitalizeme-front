@@ -1,20 +1,23 @@
-import React from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import React from 'react'
+import { BrowserRouter, Route, Switch } from 'react-router-dom'
 
-import Home from './pages/Home';
+import Home from './pages/Home'
 import Pitch from './pages/Pitch'
-import Video from './pages/Video'
+
+import Header from '../src/components/Header'
+import Footer from '../src/components/Footer'
 
 function Routes() {
     return (
         <BrowserRouter>
+            <Header />
             <Switch>
                 <Route path="/" exact component={Home} />
                 <Route path="/pitch" exact component={Pitch} />
-                <Route path="/video" exact component={Video} />
             </Switch>
+            <Footer />
         </BrowserRouter>
     )
 }
 
-export default Routes;
+export default Routes

@@ -62,7 +62,7 @@ header .nav__menu__mobile__items ul {
 
 header .nav__menu__mobile__items ul li {
     margin: 15px 10px;
-    display: inline-block;
+    display: block;
 }
 
 header .nav__menu__mobile__items ul li a {

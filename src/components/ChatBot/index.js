@@ -3,7 +3,9 @@ import React from 'react';
 import './styles.css';
 
 import { FaFacebookMessenger, FaWhatsapp } from 'react-icons/fa';
-import { FiTerminal } from 'react-icons/fi';
+// import { FiTerminal } from 'react-icons/fi';
+
+import ariela from '../../assets/images/ariela.png'
 
 function ChatBot() {
 
@@ -21,12 +23,11 @@ function ChatBot() {
                 <div className="content">
                     <div className="chat__card">
                         <div className="chat__card__form">
-                            <span><FiTerminal size={16} color="#2d2d2d" /></span>
-                            <span>Olá eu sou a Ariela. Clique <a href="https://admin.chatcompose.com/testbotland/leomoraes-digitalizeme/PT" target="chat">aqui</a> e vamos conversar.</span>
+                            <a href="https://bit.ly/arielaChat" target="chat"><img src={ariela} alt="Ariela" /></a>
                         </div>
                         <div className="chat__card__socials">
-                            <FaFacebookMessenger size={32} color="#ffffff" id="fb" onClick={fbLink} />
                             <FaWhatsapp size={32} color="#ffffff" id="wpp" onClick={wppLink} />
+                            <FaFacebookMessenger size={32} color="#ffffff" id="fb" onClick={fbLink} />
                         </div>
                     </div>
                     <div className="chat__info">

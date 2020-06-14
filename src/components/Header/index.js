@@ -5,6 +5,7 @@ import logoImg from '../../assets/images/logo.png';
 import { FaBars } from 'react-icons/fa';
 
 import $ from 'jquery';
+import { Link } from 'react-router-dom';
 
 function Header() {
     
@@ -23,19 +24,15 @@ function Header() {
                     </div>
                     <div className="nav__menu__desktop">
                         <ul>
-                            <li><a href="/">Home</a></li>
-                            <li><a href="/#chat">Chat</a></li>
-                            <li><a href="https://digitalizeme-blog.herokuapp.com/" target="_blank" rel="noopener noreferrer">Blog</a></li>
-                            <li><a href="/pitch">Pitch</a></li>
+                            <li><Link to="/">Home</Link></li>
+                            <li><Link to="/pitch">Pitch</Link></li>
                         </ul>
                     </div>
                     <div className="nav__menu__mobile">
                         <div className="nav__menu__mobile__items">
                             <ul>
-                                <li><a href="/">Home</a></li>
-                                <li><a href="/#chat">Chat</a></li>
-                                <li><a href="https://digitalizeme-blog.herokuapp.com/" target="_blank" rel="noopener noreferrer">Blog</a></li>
-                                <li><a href="/pitch">Pitch</a></li>
+                                <li><Link to="/">Home</Link></li>
+                                <li><Link to="/pitch">Pitch</Link></li>
                             </ul>
                         </div>
                     </div>
