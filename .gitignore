@@ -18,10 +18,14 @@
 .env.test.local
 .env.production.local
 
+# log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+# dependencies control version
 package-lock.json
+yarn.lock
 
+# zeit
 .now
